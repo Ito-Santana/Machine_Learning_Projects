@@ -42,15 +42,4 @@ Develop a classification model that accurately predicts if a passenger was trans
 - **Cryosleep**: Passengers in cryosleep are more likely to be transported.
 - **Side and Deck Analysis**: Passengers on the 'S' side and those on decks B and C are more likely to be transported.
 
-## Files
 
-- `data/`: Contains raw and processed data files.
-- `notebooks/`: Jupyter notebooks for data analysis and model training.
-- `scripts/`: Python scripts for data processing, modeling, and evaluation.
-- `XGB.csv`: Final submission file with predictions.
-
-## Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository-url>
