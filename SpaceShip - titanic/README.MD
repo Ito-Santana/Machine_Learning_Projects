@@ -1,5 +1,7 @@
 # Spaceship Titanic - Classification Project
 
+![My score](https://github.com/Ito-Santana/Machine_Learning_Projects/blob/main/SpaceShip%20-%20titanic/ignore_imgs/submission.png)
+
 ## Overview
 
 The "Spaceship Titanic" project is a predictive analysis aimed at determining which passengers were transported to an alternate dimension using a fictional dataset from the space Titanic. This project leverages machine learning techniques to build a classification model that predicts whether a passenger was transported or not based on various features.
@@ -41,5 +43,4 @@ Develop a classification model that accurately predicts if a passenger was trans
 - **Age Distribution**: Passengers under 12 years old have a higher likelihood of being transported.
 - **Cryosleep**: Passengers in cryosleep are more likely to be transported.
 - **Side and Deck Analysis**: Passengers on the 'S' side and those on decks B and C are more likely to be transported.
-
 
