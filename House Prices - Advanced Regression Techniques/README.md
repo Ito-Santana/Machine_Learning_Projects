@@ -45,9 +45,6 @@ Used the VarianceThreshold method to reduce the dimensionality of the dataset an
 
 Trained the model using cross-validation across various models and selected Random Forest Regressor and XGBoost for their superior RMSE performance. In the testing phase, XGBoost performed better in the submission, so I fine-tuned it and managed to reduce the RMSE from 0.15 to 0.14.
 
-## How to Run the Project
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/your_repository.git
+
 
