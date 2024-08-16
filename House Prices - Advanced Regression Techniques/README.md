@@ -1,26 +1,25 @@
-# Projeto de Análise de Dados
+# Data Analysis Project
 
-Este repositório contém um projeto de análise de dados que inclui processamento e seleção de recursos para modelos preditivos. O objetivo é preparar os dados para modelagem e melhorar a qualidade do conjunto de dados.
+This repository contains a data analysis and processing project aimed at preparing the dataset for predictive modeling and improving its quality. The process includes handling missing values, removing outliers, and selecting relevant features.
 
-## Estrutura do Projeto
+## Objective
 
-- **`data/`**: Contém os conjuntos de dados brutos e processados.
-- **`notebooks/`**: Jupyter notebooks para análise e visualização de dados.
-- **`scripts/`**: Scripts Python para processamento de dados e modelagem.
-- **`requirements.txt`**: Lista de dependências do projeto.
+The goal of this project is to prepare the data for predictive analysis, ensuring that the dataset is clean and ready for use in machine learning models.
 
-## Processamento de Dados
+## Steps Taken
 
-### 1. Pré-processamento de Dados
+### 1. Handling Missing Values
 
-- **Tratamento de Valores Nulos**: Colunas com mais de 17% de valores nulos são removidas. Valores nulos nas colunas categóricas são preenchidos com base na frequência dos valores mais comuns.
-  
-  ```python
-  def calculate_ratios(data, total_value):
-      # Calcula as proporções para os 5 valores mais frequentes.
-      ...
-  
-  def pre_processing_data(data):
-      # Gera uma lista de valores para preencher os nulos.
-      ...
+Identified columns with a significant amount of missing values and removed those with more than 17% missing data. For categorical columns, filled missing values based on the frequency of the most common values. This approach helps maintain data integrity without introducing arbitrary values.
 
+### 2. Outlier Treatment
+
+Applied the Tukey method to identify and handle outliers in numeric columns. This method uses the interquartile range (IQR) to detect values that are significantly different from the main distribution of the data. Removing outliers is important to prevent extreme values from distorting the results of the analysis.
+
+### 3. Feature Selection
+
+Used the VarianceThreshold method to reduce the dimensionality of the dataset and improve model efficiency. Set a threshold of 0.1 to remove features with variance below this value. This helps eliminate features that do not provide significant information for the model, keeping only those with substantial variation.
+
+### 4. Modeling
+
+Trained the model using cross-validation across various models and selected Random Forest Regressor and XGBoost for their superior RMSE performance. In the testing phase, XGBoost performed better in the submission, so I fine-tuned it and managed to reduce the RMSE from 0.15 to 0.14.
