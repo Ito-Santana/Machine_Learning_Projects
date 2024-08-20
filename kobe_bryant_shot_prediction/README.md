@@ -22,9 +22,12 @@ Exploratory Data Analysis (EDA) is a crucial step in understanding the dataset a
   - Analyzed the number of shots and shooting accuracy by year. 
   - Noticed that Kobe Bryant's accuracy in championship years (2000, 2001, 2002, 2009, and 2010) was equal to or higher than his average accuracy.
   - Observed high accuracy in years when Kobe was the runner-up (2008 and 2006), indicating his crucial role in title contention during those seasons.
+  - ![Shots per Year & Accuracy per Year](https://github.com/Ito-Santana/Machine_Learning_Projects/blob/main/kobe_bryant_shot_prediction/ignore/newplot%20(7).png)
 
 - **Relationship between Successful Shots and Court Position**:
   - Examined how the location on the court affects the success rate of shots.
+  - ![Successful Shots vs. Court Position](https://github.com/Ito-Santana/Machine_Learning_Projects/blob/main/kobe_bryant_shot_prediction/ignore/newplot%20(3).png)
+  - ![Successful Shots vs. Court Position](https://github.com/Ito-Santana/Machine_Learning_Projects/blob/main/kobe_bryant_shot_prediction/ignore/newplot%20(4).png)
 
 - **Shots per Opponent**:
   - Analyzed the number of shots attempted against different opponents.
@@ -32,4 +35,11 @@ Exploratory Data Analysis (EDA) is a crucial step in understanding the dataset a
 - **Shots to Time Remaining Ratio**:
   - Focused on shots taken with 6 seconds or less remaining on the clock, a critical moment for decision-making.
   - Found a correlation between shooting accuracy and the time remaining: Kobe Bryant's accuracy decreases as the time remaining gets shorter.
+  - ![Shots to Time Remaining Ratio](https://github.com/Ito-Santana/Machine_Learning_Projects/blob/main/kobe_bryant_shot_prediction/ignore/newplot%20(6).png)
+ 
+  ## Results
+
+The model achieved a performance score of **0.68**. This result reflects the model's ability to predict the success of Kobe Bryant's shots based on the features analyzed.
+
+
 
