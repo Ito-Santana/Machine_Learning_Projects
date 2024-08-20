@@ -39,7 +39,6 @@ Exploratory Data Analysis (EDA) is a crucial step in understanding the dataset a
  
   ## Results
 
-The model achieved a performance score of **0.68**. This result reflects the model's ability to predict the success of Kobe Bryant's shots based on the features analyzed.
-
+The model achieved a **Log Loss** of **0.68**. This metric reflects the model's performance in predicting the probability of Kobe Bryant's shots being successful. 
 
 
