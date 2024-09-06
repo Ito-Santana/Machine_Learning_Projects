@@ -44,6 +44,7 @@ Durante a Análise Exploratória de Dados, foram realizadas as seguintes etapas:
 Os resultados das análises de pré-processamento de dados indicam que o melhor recall foi alcançado quando os dados foram escalonados usando `StandardScaler`, os outliers foram deixados intocados e o método de peso de classe foi aplicado.
 
 ## Seleção de Modelo
+. A escolha do recall como métrica principal foi motivada pelo desequilíbrio significativo no conjunto de dados, onde as transações fraudulentas representam uma fração muito pequena das transações totais. Em cenários de desequilíbrio como este, o recall é crucial, pois mede a capacidade do modelo de identificar corretamente as instâncias positivas (neste caso, as fraudes).
 
 Utilizei a validação cruzada estratificada K-Fold para treinar e avaliar vários modelos, com foco na métrica de recall devido ao desequilíbrio dos dados.
 
