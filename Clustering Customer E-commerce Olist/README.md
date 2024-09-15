@@ -12,7 +12,7 @@ Este repositório contém um projeto de clustering de clientes da Olist, um e-co
 4. [Clustering com K-Means](#clustering-com-k-means)
 5. [Clustering com K-Means: Aplicação de PCA e Análise Adicional](#clustering-com-k-means-aplica%C3%A7%C3%A3o-de-pca-e-an%C3%A1lise-adicional)
 6. [Pergunta Instigante](#pergunta-instigante)
-7. [GitHub](#github)
+
 
 ## Introdução ao Clustering
 
