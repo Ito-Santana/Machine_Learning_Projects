@@ -1,6 +1,6 @@
 # Spaceship Titanic - Classification Project
 
-![My score](https://github.com/Ito-Santana/Machine_Learning_Projects/blob/main/SpaceShip%20-%20titanic/ignore_imgs/submission.png)
+![My score](https://github.com/Ito-Santana/Machine_Learning_Projects/blob/main/Classification/Spaceship%20Titanic/ignore_images/submission.png)
 
 ## Overview
 
